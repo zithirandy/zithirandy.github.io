@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        .flex{
+            display: flex;
+        }
+        form,table{
+            margin: 0 auto;
+        }
+        #btr {
+            display: flex;
+            margin: 0px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" class="flex">
+        <table>
+            <tr>
+                <td>昵称：<input type="text"></td>
+
+            </tr>
+            <tr>
+                <td>密码：<input type="password"></td>
+
+            </tr>
+            <tr>
+                <td>邮箱：<input type="text">&nbsp;
+                    <select name="sec1" id="sec1">
+                        <option value="1">qq.com</option>
+                        <option value="2">163.com</option>
+                        <option value="3">126.com</option>
+                        <option value="4">sina.com</option>
+                    </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td>性别：<input type="radio" name="sex1" id="sex1">男
+                    <input type="radio" name="sex1" id="sex2">女
+                </td>
+
+            </tr>
+            <tr>
+                <td>爱好：<input type="checkbox" name="hob1" id="hob1">旅游
+                    <input type="checkbox" name="hob2" id="hob2">摄影
+                    <input type="checkbox" name="hob3" id="hob3">运动
+                </td>
+                <td>
+            </tr>
+            <tr>
+                <td>个人介绍：</td>
+            </tr>
+            <tr>
+                <td><textarea name="txt" id="txt" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <div>上传个人照片：</div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="选择文件">&nbsp;
+                    <input type="text" id="secpic" value="未选择任何文件"></td>
+            </tr>
+        </table>
+    </form>
+    <hr>
+    <button class="flex" id="btr">立即注册</button>
+</body>
+
+</html>
